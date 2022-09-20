@@ -1,0 +1,46 @@
+
+/* Chooshing the backround color for the website */
+body{
+    background-color: darkslateblue;
+}
+/*Creating the piano frame in the middle of the screen */
+#piano{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    border: 1vmin solid black;
+    width:98vmin;
+    height: 35vmin;
+}
+
+.whiteNote{
+    background-color: white;
+    border-right: 0.1vmin solid black;
+    box-sizing:border-box;
+    height:100%;
+    width: 7vmin;
+    float:left;
+}
+
+.whiteNote.clicked {
+    background-color: #ddd;
+}
+
+.blackNote{
+    background-color: #777;
+    height:60%;
+    width:3.5vmin;
+    transform: translate(5vmin);
+}
+
+.blackNote.clicked {
+    background-color: black;
+}
+
+
+
+
+
